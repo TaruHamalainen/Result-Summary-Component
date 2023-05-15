@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Result Summary Component</title>
+  </head>
+  <body>
+    <main class="container">
+      <section class="left-col">
+        <h1>Your Result</h1>
+        <div class="circle">
+          <h2 class="result">76</h2>
+          <p class="max-result">of 100</p>
+        </div>
+        <h3>Great</h3>
+        <p>
+          You scored higher than 65% of the people who have taken these tests.
+        </p>
+      </section>
+      <section class="right-col">
+        <h2>Summary</h2>
+        <div class="categories">
+          <div class="reaction category-card">
+            <img src="images/icon-reaction.svg" alt="reaction icon" />
+            <p class="reaction-header card-header">Reaction</p>
+            <p class="max"><span class="your-result">80 </span>/ 100</p>
+          </div>
+
+          <div class="memory category-card">
+            <img src="images/icon-memory.svg" alt="memory icon" />
+            <p class="memory-header card-header">Memory</p>
+            <p class="max"><span class="your-result">92 </span>/ 100</p>
+          </div>
+
+          <div class="verbal category-card">
+            <img src="images/icon-verbal.svg" alt="verbal icon" />
+            <p class="verbal-header card-header">Verbal</p>
+            <div class="result-div">
+              <p class="max"><span class="your-result">61 </span>/ 100</p>
+            </div>
+          </div>
+
+          <div class="visual category-card">
+            <img src="images/icon-visual.svg" alt="visual icon" />
+            <p class="visual-header card-header">Visual</p>
+            <p class="max"><span class="your-result">72 </span>/ 100</p>
+          </div>
+        </div>
+        <button>Continue</button>
+      </section>
+    </main>
+  </body>
+</html>
